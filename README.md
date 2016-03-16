@@ -41,11 +41,12 @@ CGO_ENABLED=1 \
 	go build <pkg>
 ```
 
-#### 386 targets
+#### x86 targets
 
 ```
-CGO_ENABLED=1 \	CC=$BDK_HOME/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9/bin/x86_64-linux-android-gcc \
-CXX=$BDK_HOME/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9/bin/x86_64-linux-android-g++ \
+CGO_ENABLED=1 \
+	CC=$BDK_HOME/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9/bin/x86_64-linux-android-gcc \
+	CXX=$BDK_HOME/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9/bin/x86_64-linux-android-g++ \
 	GOOS=android \
 	GOARCH=386 \
 	go build <pkg>
