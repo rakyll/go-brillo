@@ -11,7 +11,7 @@ jbd's notes on Go development on Brillo devices.
 
 ## Guides
 
-### Build Go binaries targeting Brillo
+### 1. Build Go binaries targeting Brillo
 
 Note: You need to have BDK installed before beginning.
 
